@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base app theme used after splash dismissal -->
+    <style name="Theme.MacroMind" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Launch theme: shown while the app cold-starts, then transitions to Theme.MacroMind -->
+    <style name="Theme.MacroMind.Starting" parent="Theme.SplashScreen">
+        <!-- Splash background — matches the app's primary green -->
+        <item name="windowSplashScreenBackground">#006E1C</item>
+        <!-- Centred icon (108 dp vector, white MacroMind logo) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <!-- Theme to switch to once the splash exits -->
+        <item name="postSplashScreenTheme">@style/Theme.MacroMind</item>
+    </style>
+</resources>

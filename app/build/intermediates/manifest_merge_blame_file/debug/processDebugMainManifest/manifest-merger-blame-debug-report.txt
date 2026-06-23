@@ -1,0 +1,237 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.factory.macromindainutritioncoach"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Required for Google Play Billing to communicate with Play Store -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="com.android.vending.BILLING" />
+13-->[com.android.billingclient:billing-ktx:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/52ddcd297bee2b70b589da79657013a4/transformed/billing-ktx-6.1.0/AndroidManifest.xml:9:5-67
+13-->[com.android.billingclient:billing-ktx:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/52ddcd297bee2b70b589da79657013a4/transformed/billing-ktx-6.1.0/AndroidManifest.xml:9:22-64
+14
+15    <queries>
+15-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/AndroidManifest.xml:12:5-16:15
+16        <intent>
+16-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/AndroidManifest.xml:13:9-15:18
+17            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+17-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/AndroidManifest.xml:14:13-91
+17-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/AndroidManifest.xml:14:21-88
+18        </intent>
+19    </queries>
+20
+21    <permission
+21-->[androidx.core:core:1.12.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e0881d8d183e15383481ae09e65b456b/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+22        android:name="com.factory.macromindainutritioncoach.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.12.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e0881d8d183e15383481ae09e65b456b/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.12.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e0881d8d183e15383481ae09e65b456b/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.factory.macromindainutritioncoach.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+25-->[androidx.core:core:1.12.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e0881d8d183e15383481ae09e65b456b/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.12.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e0881d8d183e15383481ae09e65b456b/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+26    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/c4598426b29739df2d4d933a5585c37e/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+27-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/c4598426b29739df2d4d933a5585c37e/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:24:22-76
+28
+29    <application
+29-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:8:5-26:19
+30        android:name="com.factory.macromindainutritioncoach.MacroMindApplication"
+30-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:9:9-45
+31        android:allowBackup="true"
+31-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:10:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.12.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e0881d8d183e15383481ae09e65b456b/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:11:9-43
+36        android:label="@string/app_name"
+36-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:12:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:13:9-54
+38        android:supportsRtl="true"
+38-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:14:9-35
+39        android:theme="@style/Theme.MacroMind" >
+39-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:15:9-47
+40        <activity
+40-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:16:9-25:20
+41            android:name="com.factory.macromindainutritioncoach.MainActivity"
+41-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:17:13-41
+42            android:exported="true"
+42-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:18:13-36
+43            android:theme="@style/Theme.MacroMind.Starting"
+43-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:19:13-60
+44            android:windowSoftInputMode="adjustResize" >
+44-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:20:13-55
+45            <intent-filter>
+45-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:21:13-24:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:22:17-69
+46-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:22:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:23:17-77
+48-->/Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/AndroidManifest.xml:23:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <meta-data
+52-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/AndroidManifest.xml:19:9-21:37
+53            android:name="com.google.android.play.billingclient.version"
+53-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/AndroidManifest.xml:20:13-73
+54            android:value="6.1.0" />
+54-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/AndroidManifest.xml:21:13-34
+55
+56        <activity
+56-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/AndroidManifest.xml:23:9-27:75
+57            android:name="com.android.billingclient.api.ProxyBillingActivity"
+57-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/AndroidManifest.xml:24:13-78
+58            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+58-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/AndroidManifest.xml:25:13-96
+59            android:exported="false"
+59-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/AndroidManifest.xml:26:13-37
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/AndroidManifest.xml:27:13-72
+61        <activity
+61-->[androidx.compose.ui:ui-test-manifest:1.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/566fc880890b70f131d012ef8adc57c4/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:23:9-25:39
+62            android:name="androidx.activity.ComponentActivity"
+62-->[androidx.compose.ui:ui-test-manifest:1.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/566fc880890b70f131d012ef8adc57c4/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:24:13-63
+63            android:exported="true" />
+63-->[androidx.compose.ui:ui-test-manifest:1.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/566fc880890b70f131d012ef8adc57c4/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:25:13-36
+64        <activity
+64-->[androidx.compose.ui:ui-tooling-android:1.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f39efda5a22b985944b19e5464e58c36/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+65            android:name="androidx.compose.ui.tooling.PreviewActivity"
+65-->[androidx.compose.ui:ui-tooling-android:1.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f39efda5a22b985944b19e5464e58c36/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+66            android:exported="true" />
+66-->[androidx.compose.ui:ui-tooling-android:1.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f39efda5a22b985944b19e5464e58c36/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+67        <activity
+67-->[com.google.android.gms:play-services-base:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/91cea8c1a4d80471d738539c56f91923/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/91cea8c1a4d80471d738539c56f91923/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/91cea8c1a4d80471d738539c56f91923/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/91cea8c1a4d80471d738539c56f91923/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/bf2da1eee253c1ef502f289cc96bf7df/transformed/play-services-basement-18.0.1/AndroidManifest.xml:21:9-23:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/bf2da1eee253c1ef502f289cc96bf7df/transformed/play-services-basement-18.0.1/AndroidManifest.xml:22:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/bf2da1eee253c1ef502f289cc96bf7df/transformed/play-services-basement-18.0.1/AndroidManifest.xml:23:13-66
+75
+76        <provider
+76-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6310854c2520facb376cff90fe1cd2e6/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6310854c2520facb376cff90fe1cd2e6/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+78            android:authorities="com.factory.macromindainutritioncoach.androidx-startup"
+78-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6310854c2520facb376cff90fe1cd2e6/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+79            android:exported="false" >
+79-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6310854c2520facb376cff90fe1cd2e6/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+80            <meta-data
+80-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6310854c2520facb376cff90fe1cd2e6/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+81-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6310854c2520facb376cff90fe1cd2e6/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+82                android:value="androidx.startup" />
+82-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6310854c2520facb376cff90fe1cd2e6/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/187d26d5502ab9aa3dca85a140f018ab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/187d26d5502ab9aa3dca85a140f018ab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+85                android:value="androidx.startup" />
+85-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/187d26d5502ab9aa3dca85a140f018ab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+88                android:value="androidx.startup" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+89        </provider>
+90
+91        <service
+91-->[androidx.room:room-runtime:2.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/d91a12dcd37be42fb29d3b8217b370dd/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+92            android:name="androidx.room.MultiInstanceInvalidationService"
+92-->[androidx.room:room-runtime:2.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/d91a12dcd37be42fb29d3b8217b370dd/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+93            android:directBootAware="true"
+93-->[androidx.room:room-runtime:2.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/d91a12dcd37be42fb29d3b8217b370dd/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+94            android:exported="false" />
+94-->[androidx.room:room-runtime:2.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/d91a12dcd37be42fb29d3b8217b370dd/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+95
+96        <receiver
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+98            android:directBootAware="false"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+99            android:enabled="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+100            android:exported="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+101            android:permission="android.permission.DUMP" >
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+113            </intent-filter>
+114        </receiver>
+115
+116        <service
+116-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/c4598426b29739df2d4d933a5585c37e/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+117            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+117-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/c4598426b29739df2d4d933a5585c37e/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+118            android:exported="false" >
+118-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/c4598426b29739df2d4d933a5585c37e/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+119            <meta-data
+119-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/c4598426b29739df2d4d933a5585c37e/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+120                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+120-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/c4598426b29739df2d4d933a5585c37e/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+121                android:value="cct" />
+121-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/c4598426b29739df2d4d933a5585c37e/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+122        </service>
+123        <service
+123-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/0cdf4c31f2670d4e9a044982a1cf224a/transformed/transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+124            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+124-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/0cdf4c31f2670d4e9a044982a1cf224a/transformed/transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+125            android:exported="false"
+125-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/0cdf4c31f2670d4e9a044982a1cf224a/transformed/transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+126            android:permission="android.permission.BIND_JOB_SERVICE" >
+126-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/0cdf4c31f2670d4e9a044982a1cf224a/transformed/transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+127        </service>
+128
+129        <receiver
+129-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/0cdf4c31f2670d4e9a044982a1cf224a/transformed/transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+130            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+130-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/0cdf4c31f2670d4e9a044982a1cf224a/transformed/transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+131            android:exported="false" />
+131-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/0cdf4c31f2670d4e9a044982a1cf224a/transformed/transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+132    </application>
+133
+134</manifest>

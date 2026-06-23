@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.factory.macromindainutritioncoach.app-mergeDebugResources-61:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e0881d8d183e15383481ae09e65b456b/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

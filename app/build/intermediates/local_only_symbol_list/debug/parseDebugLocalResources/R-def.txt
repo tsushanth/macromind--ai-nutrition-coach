@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_description
+string app_name
+string billing_unavailable
+string cancel
+string loading
+string ok
+string purchase_cancelled
+string purchase_pending
+string purchase_success
+string restore_none
+string restore_success
+string retry
+style Theme.MacroMind
+style Theme.MacroMind.Starting

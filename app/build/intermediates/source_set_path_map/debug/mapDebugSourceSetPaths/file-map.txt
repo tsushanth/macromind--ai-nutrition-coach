@@ -1,0 +1,65 @@
+com.factory.macromindainutritioncoach.app-ui-geometry-release-0 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/00ebb8c79329fe4061b99fad65b8240e/transformed/ui-geometry-release/res
+com.factory.macromindainutritioncoach.app-navigation-runtime-ktx-2.7.7-1 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/0178159bda5a24906c29eefcd8603d3f/transformed/navigation-runtime-ktx-2.7.7/res
+com.factory.macromindainutritioncoach.app-animation-core-release-2 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/104aa447d8b0e3695ab982d2752b9da8/transformed/animation-core-release/res
+com.factory.macromindainutritioncoach.app-core-ktx-1.12.0-3 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16945b9cc418737e8788c7cd9c943d5f/transformed/core-ktx-1.12.0/res
+com.factory.macromindainutritioncoach.app-lifecycle-process-2.7.0-4 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/187d26d5502ab9aa3dca85a140f018ab/transformed/lifecycle-process-2.7.0/res
+com.factory.macromindainutritioncoach.app-ui-text-release-5 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/1a973582dfff0bc8ddb34858546bced9/transformed/ui-text-release/res
+com.factory.macromindainutritioncoach.app-activity-compose-1.8.2-6 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/1b7807f8722f3a42c8d7da1119e17058/transformed/activity-compose-1.8.2/res
+com.factory.macromindainutritioncoach.app-lifecycle-viewmodel-2.7.0-7 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/2beaa0ba9b95198cddd9288a0e0b312c/transformed/lifecycle-viewmodel-2.7.0/res
+com.factory.macromindainutritioncoach.app-runtime-saveable-release-8 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/2c61bfafcdb3484f061589427f42566a/transformed/runtime-saveable-release/res
+com.factory.macromindainutritioncoach.app-ui-tooling-data-release-9 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/2d8f1811ee3c834b3a92ff861bb7d377/transformed/ui-tooling-data-release/res
+com.factory.macromindainutritioncoach.app-lifecycle-livedata-2.7.0-10 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/410146f8a49e7004fce94af882e05961/transformed/lifecycle-livedata-2.7.0/res
+com.factory.macromindainutritioncoach.app-ui-graphics-release-11 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/4a2ce73af819afb61ea450a4ed912afa/transformed/ui-graphics-release/res
+com.factory.macromindainutritioncoach.app-foundation-layout-release-12 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5488036b5149b0214e0c6ba7afebd7d1/transformed/foundation-layout-release/res
+com.factory.macromindainutritioncoach.app-core-runtime-2.2.0-13 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/55e89aa291886b479d8898d96923fdf2/transformed/core-runtime-2.2.0/res
+com.factory.macromindainutritioncoach.app-ui-test-manifest-1.6.1-14 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/566fc880890b70f131d012ef8adc57c4/transformed/ui-test-manifest-1.6.1/res
+com.factory.macromindainutritioncoach.app-lifecycle-livedata-core-2.7.0-15 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5c9569a1625bb433ce0aa643f41d876f/transformed/lifecycle-livedata-core-2.7.0/res
+com.factory.macromindainutritioncoach.app-lifecycle-viewmodel-savedstate-2.7.0-16 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5ec02b94de81ed4778d85adf22777cf3/transformed/lifecycle-viewmodel-savedstate-2.7.0/res
+com.factory.macromindainutritioncoach.app-emoji2-1.3.0-17 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6310854c2520facb376cff90fe1cd2e6/transformed/emoji2-1.3.0/res
+com.factory.macromindainutritioncoach.app-billing-6.1.0-18 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6406c253673211e68dac0e4773ab4ebd/transformed/billing-6.1.0/res
+com.factory.macromindainutritioncoach.app-navigation-common-2.7.7-19 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/657157b3c6fdf521470b26cb9c77cb29/transformed/navigation-common-2.7.7/res
+com.factory.macromindainutritioncoach.app-runtime-release-20 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6d0d9b9a1ac794dcf660de2b9a616984/transformed/runtime-release/res
+com.factory.macromindainutritioncoach.app-ui-util-release-21 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/7019a2b3ce58a3fa3e92a9958176000f/transformed/ui-util-release/res
+com.factory.macromindainutritioncoach.app-navigation-compose-2.7.7-22 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/88e6bccbbcee9bfd051614954754069d/transformed/navigation-compose-2.7.7/res
+com.factory.macromindainutritioncoach.app-coordinatorlayout-1.0.0-23 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/8ebef706f023cc24a891b57c7d46d715/transformed/coordinatorlayout-1.0.0/res
+com.factory.macromindainutritioncoach.app-ui-release-24 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/90ba9c73d8751a5075785db57b63bf54/transformed/ui-release/res
+com.factory.macromindainutritioncoach.app-core-splashscreen-1.0.1-25 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/90c5b533c6e817dbfbdc20b4d220c12d/transformed/core-splashscreen-1.0.1/res
+com.factory.macromindainutritioncoach.app-play-services-base-18.0.1-26 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/91cea8c1a4d80471d738539c56f91923/transformed/play-services-base-18.0.1/res
+com.factory.macromindainutritioncoach.app-activity-ktx-1.8.2-27 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/93a66eede1fb80a3326a42750901af5f/transformed/activity-ktx-1.8.2/res
+com.factory.macromindainutritioncoach.app-material-icons-core-release-28 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/9858067890b619eb561e584fcd71e3a0/transformed/material-icons-core-release/res
+com.factory.macromindainutritioncoach.app-material-ripple-release-29 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/9af2b9887c15fafff0a64936ffe1dfbe/transformed/material-ripple-release/res
+com.factory.macromindainutritioncoach.app-sqlite-2.4.0-30 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/a2284da8b6c3d7b9f8491cc229d0d403/transformed/sqlite-2.4.0/res
+com.factory.macromindainutritioncoach.app-startup-runtime-1.1.1-31 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/aa52ddef5d633b76bf7e96f8637d0dee/transformed/startup-runtime-1.1.1/res
+com.factory.macromindainutritioncoach.app-sqlite-framework-2.4.0-32 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/ab0057f401a564753358d46385f38832/transformed/sqlite-framework-2.4.0/res
+com.factory.macromindainutritioncoach.app-lifecycle-viewmodel-ktx-2.7.0-33 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/af78eeb9b03d6e2dad7a05a8464767b5/transformed/lifecycle-viewmodel-ktx-2.7.0/res
+com.factory.macromindainutritioncoach.app-material-icons-extended-release-34 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/bce637bd603562c67f812e83db8a5552/transformed/material-icons-extended-release/res
+com.factory.macromindainutritioncoach.app-ui-unit-release-35 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/becbb8651f306f6fed38042aee334ee3/transformed/ui-unit-release/res
+com.factory.macromindainutritioncoach.app-play-services-basement-18.0.1-36 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/bf2da1eee253c1ef502f289cc96bf7df/transformed/play-services-basement-18.0.1/res
+com.factory.macromindainutritioncoach.app-activity-1.8.2-37 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/c0261187f5c470c8856008203c6078ff/transformed/activity-1.8.2/res
+com.factory.macromindainutritioncoach.app-navigation-runtime-2.7.7-38 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/c11072e0cf0d6da17017d331c1a74c12/transformed/navigation-runtime-2.7.7/res
+com.factory.macromindainutritioncoach.app-room-ktx-2.6.1-39 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/c5d4866605eb0ba565137b74dce26917/transformed/room-ktx-2.6.1/res
+com.factory.macromindainutritioncoach.app-lifecycle-runtime-2.7.0-40 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/cd45466a24e29cc9089488c64539b978/transformed/lifecycle-runtime-2.7.0/res
+com.factory.macromindainutritioncoach.app-lifecycle-runtime-compose-2.7.0-41 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/d6661d94ae32345c07df8abf5626e0e6/transformed/lifecycle-runtime-compose-2.7.0/res
+com.factory.macromindainutritioncoach.app-room-runtime-2.6.1-42 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/d91a12dcd37be42fb29d3b8217b370dd/transformed/room-runtime-2.6.1/res
+com.factory.macromindainutritioncoach.app-foundation-release-43 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/db4f5dce674289d28bdd1281b1833506/transformed/foundation-release/res
+com.factory.macromindainutritioncoach.app-core-1.12.0-44 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e0881d8d183e15383481ae09e65b456b/transformed/core-1.12.0/res
+com.factory.macromindainutritioncoach.app-customview-poolingcontainer-1.0.0-45 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e2fa7a07db7e1e42396507e3f6216dde/transformed/customview-poolingcontainer-1.0.0/res
+com.factory.macromindainutritioncoach.app-profileinstaller-1.3.0-46 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e681ce327b5947a4acd0580ee66fecc3/transformed/profileinstaller-1.3.0/res
+com.factory.macromindainutritioncoach.app-lifecycle-viewmodel-compose-2.7.0-47 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e6a5b4b4813dbc1cc58f0f1f1e5140dc/transformed/lifecycle-viewmodel-compose-2.7.0/res
+com.factory.macromindainutritioncoach.app-ui-tooling-preview-release-48 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/ed48f1191f1b4de777c5e258bf63591a/transformed/ui-tooling-preview-release/res
+com.factory.macromindainutritioncoach.app-lifecycle-livedata-core-ktx-2.7.0-49 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f1847fa15ce37d4914fd75eba1e1f7eb/transformed/lifecycle-livedata-core-ktx-2.7.0/res
+com.factory.macromindainutritioncoach.app-animation-release-50 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f32241b63f7d4161ee144c5f4a88a2eb/transformed/animation-release/res
+com.factory.macromindainutritioncoach.app-ui-tooling-release-51 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f39efda5a22b985944b19e5464e58c36/transformed/ui-tooling-release/res
+com.factory.macromindainutritioncoach.app-material-release-52 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f4d5666928f5ae7717fdf8e199565bb7/transformed/material-release/res
+com.factory.macromindainutritioncoach.app-navigation-common-ktx-2.7.7-53 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f9536bb28727151e2c4c22d32b696c1b/transformed/navigation-common-ktx-2.7.7/res
+com.factory.macromindainutritioncoach.app-lifecycle-runtime-ktx-2.7.0-54 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f965c351dac322e6f2fb44a5ec641816/transformed/lifecycle-runtime-ktx-2.7.0/res
+com.factory.macromindainutritioncoach.app-savedstate-ktx-1.2.1-55 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/fad589886a86733d73b3b21bcd220cd3/transformed/savedstate-ktx-1.2.1/res
+com.factory.macromindainutritioncoach.app-material3-release-56 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/fccfe26b7c0b72fe1439533584a68e23/transformed/material3-release/res
+com.factory.macromindainutritioncoach.app-annotation-experimental-1.4.0-57 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/fd50ec635b16c98d4d73cc3516dd250e/transformed/annotation-experimental-1.4.0/res
+com.factory.macromindainutritioncoach.app-savedstate-1.2.1-58 /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/fdc29a4ac74db0f921cec6f5d703c5dc/transformed/savedstate-1.2.1/res
+com.factory.macromindainutritioncoach.app-resValues-59 /Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/build/generated/res/resValues/debug
+com.factory.macromindainutritioncoach.app-packageDebugResources-60 /Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.factory.macromindainutritioncoach.app-packageDebugResources-61 /Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.factory.macromindainutritioncoach.app-debug-62 /Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.factory.macromindainutritioncoach.app-debug-63 /Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/debug/res
+com.factory.macromindainutritioncoach.app-main-64 /Users/sushanthtiruvaipati/Documents/AndroidApps/MacroMind: AI Nutrition Coach/app/src/main/res
